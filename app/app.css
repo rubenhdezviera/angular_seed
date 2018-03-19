@@ -1,0 +1,36 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+  /*background-image: url("images/mar.jpg");*/
+}
+
+/*
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+*/
+
+.menu > li {
+  display: inline;
+  margin-left: 0.5em;
+}
+
+.cabecera{
+  background-image: url("images/mar.jpg");
+  height: 4em;
+}
+
+
